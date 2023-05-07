@@ -4,6 +4,8 @@ import Profile from "./components/Profile";
 import Avatar from "./components/Avatar";
 import Counter from "./components/Counter";
 import Counter2 from "./components/Counter2";
+import Counter3 from "./components/Counter3";
+import Product from "./components/Product";
 
 function AppProfile() {
     const handleClick = (event) => {
@@ -13,14 +15,23 @@ function AppProfile() {
 
     const [totalCount, setTotalCount] = useState(0);
     const totalClickHandle = () => (setTotalCount((prev) => totalCount + 1));
+    // const totalClickHandle2 = () => ( setTotalCount( (prev) => prev+1) );
+    const [isToggle, setIsToggle]  =  useState(true);
+    const setToggleHandle = () => setIsToggle(!isToggle);
+
     return (
         <>
+            <div className='container'>
+                {isToggle &&  <Product></Product>}
+                <button onClick={setToggleHandle}>Toggle</button>
+            </div>
             <div className='container'>
                 <span className='banner'>Total Count: {totalCount} {totalCount > 10 ? '🔥' : '❄️'}</span>
                 <div className='counters'>
                     <Counter totalCount={totalCount} onClickTotal={totalClickHandle}></Counter>
                     <Counter totalCount={totalCount} onClickTotal={totalClickHandle}></Counter>
                     <Counter2></Counter2>
+                    <Counter3 totalCount = {totalCount} onClickTotal={totalClickHandle}></Counter3>
                 </div>
             </div>
 
