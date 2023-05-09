@@ -1,11 +1,11 @@
 import React, {useState} from "react";
 import './App.css';
-import Profile from "./components/Profile";
-import Avatar from "./components/Avatar";
-import Counter from "./components/Counter";
-import Counter2 from "./components/Counter2";
-import Counter3 from "./components/Counter3";
-import Product from "./components/Product";
+import Profile from "./components/basic/Profile";
+import Avatar from "./components/basic/Avatar";
+import Counter from "./components/basic/Counter";
+import Counter2 from "./components/basic/Counter2";
+import Counter3 from "./components/basic/Counter3";
+import Product from "./components/basic/Product";
 
 function AppProfile() {
     const handleClick = (event) => {
