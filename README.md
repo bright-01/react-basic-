@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# 그냥 정리
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 웹팩이란?
+- 프론트엔드 프레임워크에서 사용되는게 모듈 번들러.
+- 모듈번들러는 웹 애플리케이션을 구성하는 자원 HTML, CSS, Javascript, Images 등 을 각각의 모듈로 보고 이를 조합해서 병합된 하나의 결과물을 만드는 도구.
 
-## Available Scripts
+### 모듈이란
+- 기능을 갖는 작은 코드 단위.
 
-In the project directory, you can run:
+#### PostCSS?
+- CSS 후처리기며, css 작성을 더 편하게 만들어주는 javascript 도구
+- javascript를 이용해서 css를 변경
+  
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Taildwind-css
+- Utility-First를 지향하는 CSS 프레임워크입니다.
+  Utility-First: 미리 세팅된 유틸리티 클래스를 활용하여 HTML 코드 내에서 스타일링
+  CSS의 각 속성들을 클래스에 직관적으로 표현함으로써 효율적으로 사용할 수 있게 됩니다.
+  스타일링에 필요한 대부분의 속성들이 클래스 형태로 사전에 정의되어 있고 사용자는 클래스들을 조합해요 사용하면 됩니다.
